@@ -38,3 +38,10 @@ int main()
 
     float bmi = hitungbmi (bb, tb);
     cout << "\n--- Hasil ---" << endl;
+    cout << "\nNilai BMI : " << bmi << endl;
+    cout << "Status    : " << kategoribmi(bmi) << endl;
+
+    return 0;
+
+}
+ 
