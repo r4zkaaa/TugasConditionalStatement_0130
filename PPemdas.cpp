@@ -31,3 +31,10 @@ string kategoribmi (float bmi)
         return "Obesitas";
         
 }
+
+int main() 
+{
+    inputbmi();
+
+    float bmi = hitungbmi (bb, tb);
+    cout << "\n--- Hasil ---" << endl;
