@@ -26,3 +26,8 @@ string kategoribmi (float bmi)
     else if (bmi < 25)
         return "Berat badan normal";
     else if (bmi < 30)
+          return "Berat badan kelebihan";
+    else 
+        return "Obesitas";
+        
+}
