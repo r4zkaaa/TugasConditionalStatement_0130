@@ -16,3 +16,13 @@ void inputbmi()
  float hitungbmi (float berat, float tinggi)
 {
     return berat / (tinggi * tinggi);
+
+    }
+   
+string kategoribmi (float bmi)
+{
+    if (bmi < 18.5)
+        return "Berat badan kurang";
+    else if (bmi < 25)
+        return "Berat badan normal";
+    else if (bmi < 30)
